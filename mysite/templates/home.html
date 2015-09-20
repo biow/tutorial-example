@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="header">
+        <a href="{% url 'post_new' %}"><span class="glyphicon glyphicon-plus">New Post</span></a>
         <h1 class="site-title text-center">
             <a href="/">A Django Girl's Adventure</a>
         </h1>
@@ -18,6 +19,7 @@
         <div class="post-wrapper">
             <div class="post">
                 <div class="post-heading">
+                    <a class="read-more" href="{% url 'post_edit' id=post.id %}">Edit</a>
                     <h2 class="title">
                         <a href="{% url 'post_detail' id=post.id %}">{{ post.title }}</a>
                     </h2>
