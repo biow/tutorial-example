@@ -1,0 +1,24 @@
+1. 怎麼啟用一個現有的 django project
+  pip install -r requirement.txt (psycopg2?)
+
+2. 開放所有 ip for docker
+  python manage.py runserver 0.0.0.0:8000
+
+3. admin passwd
+  https://docs.djangoproject.com/en/1.8/intro/tutorial02/
+
+4. 直接更新 local repo 的方法
+  git pull https://github.com/timtan/tutorial-example
+
+5. django urls - 設定 route
+  https://carolhsu.gitbooks.io/django-girls-tutorial-traditional-chiness/content/django_urls/README.html
+
+6. django forms
+  https://carolhsu.gitbooks.io/django-girls-tutorial-traditional-chiness/content/django_forms/README.html
+
+7. form.as_p 表單順序不如預期
+  改用 manual
+
+8. UI 調整, static css
+  TODO
+
